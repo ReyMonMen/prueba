@@ -1,0 +1,72 @@
+/* Selector universal / resetea los estilos por default */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+/* los elementos en bloque ocupan el 100% de la pantalla*/
+/* los elementos en linea solo ocupan el espacio de su contenido*/
+
+
+/* comentarios */
+/* Formas de agragar estilos a mis etiquetas de html */
+
+/* 1.- Directamente al selector */
+/* 
+    selector {
+        propiedad: valor;
+    }
+*/
+
+header{
+    background-color: rgb(186, 92, 103);    
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+/* 2.- Clases - Es un atributo que nos permite individualizar a nuestos elemento html */
+
+.enlace {
+    color: black;
+    text-decoration: none;
+}
+
+/* 3.- ID */
+
+#productos {
+    background-color: khaki;
+}
+
+/* CSS - hoja de estilo en cascada */
+
+header nav ul li {
+    list-style-type: none;
+}
+
+#cabecera nav .desordenada li {
+    color: blue;
+}
+
+/* Varias etiquetas, clases que comparten las mismas propiedades pero no estan en la misma cascada*/
+
+.enlace-azul, .parrafo-azul {
+    /*El nombre ingles, rgb, rgba, hsl, hexadecimal*/
+    color: rgba(36, 16, 135, 0.671);
+}
+
+em {
+    background-color: blue;
+}
+
+.accusantium {
+    background-color: aqua;
+    /* Fuentes */
+    font-family: 'nunito', sans-serif;
+}
+
